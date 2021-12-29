@@ -1,0 +1,6 @@
+//// first time from New Folder
+> git init
+> git add README.md
+> git commit -m "first commit"
+> git remote add origin https://github.com/ZahidK07/Nov_My_Profile.git
+> git push -u origin main
