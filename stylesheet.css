@@ -54,7 +54,6 @@ body{
 .Connections h1{
     text-align: center;
     font-size: 40px;
-    font-family: Georgia;
     color: rgb(230, 230, 230);
 }
 
@@ -108,7 +107,6 @@ body{
     color: rgb(230, 230, 230);
     text-align: center;
     font-size: 40px;
-    font-family: Georgia;
 }
 
 #HobbyCard > h2{
@@ -125,7 +123,6 @@ body{
 .headingskill > h1{
     text-align: center;
     font-size: 40px;
-    font-family: Georgia;
 }
 
 .headingskill{
@@ -154,9 +151,29 @@ body{
     box-shadow:white 1px 2px 15px 10px;
 }
 
+#Projects{
+    margin-top: 10%;
+    color: white;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.h2{
+    text-align: center;
+}
+
+.card{
+    width: 550px;
+    height: 500px;
+    border: solid 1px white;
+}
+
 .CnctHeading{
     margin-top: 5%;
-    font-family: Georgia;
     text-align: center;
     color: rgb(230, 230, 230); 
 }
@@ -613,6 +630,23 @@ body{
     margin-left: 11%;
     margin-top:10%;
     padding-top: 10px;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Projects{
+    margin-top: 60rem;
+    font-size: 36px;
+}
+
+.card {
+  margin-left: auto ;margin-right: auto;
+  width: 350px ;
+  height: 350px ;
+  margin-top: 4%;
 }
 
 .Line{
